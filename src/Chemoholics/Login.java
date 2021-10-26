@@ -8,7 +8,6 @@ public class Login {
     Scanner l = new Scanner(System.in);
     DisplayMenu display = new DisplayMenu();
 
-
     void login()
     {
 
@@ -16,15 +15,15 @@ public class Login {
         String Pass = "password";
 
         String UserName,pass;
-        System.out.println("Enter User Name : ");
+        System.out.print("Enter User Name : ");
         UserName = l.nextLine();
         if(UserName.equals(Name1))
         {
-            System.out.println("Enter Password : ");
+            System.out.print("Enter Password : ");
             pass=l.nextLine();
             if(pass.equals(Pass))
             {
-                System.out.println("Login successful");
+                System.out.println("Login successful\n");
                 display.display();
             }
             else
@@ -35,11 +34,11 @@ public class Login {
         }
         else if(UserName.equals(Name2))
         {
-            System.out.println("Enter Password : ");
+            System.out.print("Enter Password : ");
             pass=l.nextLine();
             if(pass.equals(Pass))
             {
-                System.out.println("Login successful");
+                System.out.println("Login successful\n");
                 display.display();
             }
             else
@@ -50,11 +49,11 @@ public class Login {
         }
         else if(UserName.equals(Name3))
         {
-            System.out.println("Enter Password : ");
+            System.out.print("Enter Password : ");
             pass=l.nextLine();
             if(pass.equals(Pass))
             {
-                System.out.println("Login successful");
+                System.out.println("Login successful\n");
                 display.display();
             }
             else
@@ -65,11 +64,11 @@ public class Login {
         }
         else if(UserName.equals(Name4))
         {
-            System.out.println("Enter Password : ");
+            System.out.print("Enter Password : ");
             pass=l.nextLine();
             if(pass.equals(Pass))
             {
-                System.out.println("Login successful");
+                System.out.println("Login successful\n");
                 display.display();
             }
             else
