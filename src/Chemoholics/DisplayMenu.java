@@ -58,6 +58,7 @@ public class DisplayMenu {
         else if(Choice==5)
         {
             System.out.println("_______________________________________________________________________________________");
+            System.out.println("_______________________________________________________________________________________");
 
             //l.login();
             System.out.println("Logging Out");
