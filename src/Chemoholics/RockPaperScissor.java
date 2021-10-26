@@ -24,13 +24,15 @@ public class RockPaperScissor {
 
     void RPS()
     {
+        System.out.println("\t\t\tWellcome to the Game \n" +
+                "\t\t\tRock, Paper, Scissor\n");
         int r;
         String userName;
 
-        System.out.println("Enter Your Name: ");
+        System.out.print("Enter Your Name: ");
         userName=x.nextLine();
 
-        System.out.println("Total Rounds Of Game: ");
+        System.out.print("Total Rounds Of Game: ");
         r =x.nextInt();
 
         int userScore=0;
@@ -48,7 +50,7 @@ public class RockPaperScissor {
 
 
             System.out.println("\n0. Rock\n1. Paper\n2. Scissor\n");
-            System.out.println(userName+"'s choice");
+            System.out.print(userName+"'s choice: ");
             int n;
             n= x.nextInt();
             int pcChoice=GRandom();

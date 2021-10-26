@@ -9,8 +9,10 @@ public class PeriodicTable {
 
     void PT()
     {
+        System.out.println("Welcome to peroidic Table");
         while(true) {
             String element;
+
             System.out.print("Enter element: ");
             element = in.nextLine();
             //System.out.println("Type 'Exit' to Return to main menu");

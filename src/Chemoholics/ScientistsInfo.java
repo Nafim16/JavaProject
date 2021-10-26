@@ -10,9 +10,9 @@ public class ScientistsInfo {
         while(true) {
             String scientistName;
             System.out.println("\n\tScintist Name -------------->\n");
-            System.out.println("\t1.Marie Curie\t2.Louis Pasteur\t3.John Dalton\t4.George Washington Carver\n" +
-                    "\t5.Alfred Nobel\t6.Rosalind Franklin\t7.Robert Boyle\t8.Mario Molina\n" +
-                    "\t9.Otto Hahn\t10.Thomas Graham\t\n\tType 'Exit' to terminate this");
+            System.out.println("\t1.Marie Curie \t2.Louis Pasteur    \t3.John Dalton \t4.George Washington Carver\n" +
+                               "\t5.Alfred Nobel\t6.Rosalind Franklin\t7.Robert Boyle\t8.Mario Molina\n" +
+                               "\t9.Otto Hahn   \t10.Thomas Graham\t\n\tType 'Exit' to return to main menu");
 
             System.out.println("These are some popular scientist Name. Type Their Number to Know their details");
             scientistName = sc.nextLine();
@@ -40,7 +40,7 @@ public class ScientistsInfo {
             } else if (scientistName.equals("5")) {
                 System.out.println("Alfred Nobel (1833-1896)\n" +
                         "Famous For: Inventing the dynamite\n" +
-                        "As the inventor of the dynamite, Alfred Nobel is seen as a chemist, innovator, engineer, and arms manufacturer. " +
+                        "As the inventor of the dynamite, Alfred Nobel is seen as a chemist, innovator, engineer, and arms manufacturer. \n" +
                         "One of his earliest inventions include the gas meter. At one time, he held nearly 350 patents on various items.");
             } else if (scientistName.equals("6")) {
                 System.out.println("Rosalind Franklin (1920-1958)\n" +

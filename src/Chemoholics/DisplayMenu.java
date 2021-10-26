@@ -21,7 +21,7 @@ public class DisplayMenu {
                 "4. Entertainment\n" +
                 "5. Logout");
 
-        System.out.println("Enter Your Choice --> ");
+        System.out.print("Enter Your Choice --> ");
 
         int Choice;
         Choice = d.nextInt();
