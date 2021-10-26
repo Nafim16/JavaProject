@@ -32,8 +32,8 @@ public class RockPaperScissor {
 
         System.out.println("Total Rounds Of Game: ");
         r =x.nextInt();
-        int rn = GRandom();
-        int pcChoice=rn;
+        //int rn = GRandom();
+        //int pcChoice=rn;
         int userScore=0;
         int pcScore=0;
 
@@ -52,6 +52,7 @@ public class RockPaperScissor {
             System.out.println(userName+"'s choice");
             int n;
             n= x.nextInt();
+            int pcChoice=GRandom();
             System.out.println("Computers Choice: "+pcChoice);
             if(pcChoice==0 && n==1)
             {
