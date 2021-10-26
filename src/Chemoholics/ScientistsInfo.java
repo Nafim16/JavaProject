@@ -14,7 +14,7 @@ public class ScientistsInfo {
                     "\t5.Alfred Nobel\t6.Rosalind Franklin\t7.Robert Boyle\t8.Mario Molina\n" +
                     "\t9.Otto Hahn\t10.Thomas Graham\t\n\tType 'Exit' to terminate this");
 
-            System.out.println("These are some popular scientist Name. Type Their name to Know their details");
+            System.out.println("These are some popular scientist Name. Type Their Number to Know their details");
             scientistName = sc.nextLine();
             if (scientistName.equals("1")) {
                 System.out.println("Marie Curie (1867-1934)\n" +
@@ -60,7 +60,7 @@ public class ScientistsInfo {
             } else if (scientistName.equals("9")) {
                 System.out.println("Otto Hahn (1879-1968)\n" +
                         "Famous For: Being the Father of Nuclear Chemistry\n" +
-                        "Hahn was one of the earliest men to work in the field of radiochemistry and radioactivity. " +
+                        "Hahn was one of the earliest men to work in the field of radiochemistry and radioactivity. \n" +
                         "During one of his experiments, he founded what is known as Applied Radiochemistry which eventually led to nuclear chemistry.");
             } else if (scientistName.equals("10")) {
                 System.out.println("Thomas Graham (1805-1869)\n" +
